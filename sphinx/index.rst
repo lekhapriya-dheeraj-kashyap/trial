@@ -6,10 +6,17 @@
 Sphinx Trial
 ============
 
+This is an example website. The description of the website
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   
+   
+   installation
+   quickstart
+   usage
+   summary
    code
 
 
