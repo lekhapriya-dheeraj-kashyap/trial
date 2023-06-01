@@ -12,17 +12,19 @@
 #
 import os
 import sys
+import shlex
+
 sys.path.insert(0, os.path.abspath('../'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx Trial'
-copyright = '2023, L'
-author = 'L'
+project = 'DCRL-Green'
+copyright = '2023, HPE'
+author = 'AIRL team, HPE'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0'
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -30,7 +32,8 @@ release = '0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc']
+extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

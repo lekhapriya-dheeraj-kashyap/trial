@@ -3,21 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sphinx Trial
-============
+DCRL-Green documentation
+========================
 
-This is an example website. The description of the website
+Github Repository https://github.com/lekhapriya/sphinx-python-doc of source code and documentation
+
+General information
+-------------------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
    
+   intro
+
+Installation
+------------
+
+.. toctree::
+   :maxdepth: 2
    
    installation
+   
    quickstart
-   usage
-   summary
+   overview
    code
+   usage
 
 
 
